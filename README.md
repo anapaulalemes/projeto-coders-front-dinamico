@@ -1,18 +1,18 @@
-Projeto To Do com API - Santander Coders 2023.2 #1120
-Este projeto para mobile é composto por duas página, sendo construídas com Css, Html e JavaScript. A primeira página emula o site para cadatro em um aplicativo de Lista de Tarefas. A segunda página emula a lista de tarefa, em que o usuário pode adicionar, editar, pesquisar, remover e selecionar tarefas. O design é original e foi construído pela equipe.
+<h1> Projeto To Do com API - Santander Coders 2023.2 #1120 </h1>
+<p>Este projeto para mobile é composto por duas página, sendo construídas com Css, Html e JavaScript. A primeira página emula o site para cadatro em um aplicativo de Lista de Tarefas. A segunda página emula a lista de tarefa, em que o usuário pode adicionar, editar, pesquisar, remover e selecionar tarefas. O design é original e foi construído pela equipe.</p>
 
-Feito em grupo para entrega do módulo de JavaScript, com os participantes Ana Paula, Cintia, Deividson e Nicolas.
+<h3>Feito em grupo para entrega do módulo de JavaScript, com os participantes Ana Paula, Cintia, Deividson e Nicolas.</h3>
 
-Autores
-• @anapaulalemes • @cintiaarantes • @DeividsonOmedio • @nicolasuesu
+<h4>Autores
+• @anapaulalemes • @cintiaarantes • @DeividsonOmedio • @nicolasuesu</h4>
 
-Stack utilizada
-Front-end: CSS, HTML e JavaScript, API.
+<h4>Stack utilizada
+<p>Front-end: CSS, HTML e JavaScript, API.
 
-Back-end:
+Back-end: </p>
 
-Deploy
-Github Pages
+<h4>Deploy</h4>
+<p>Github Pages</p>
 
-Aprendizados
-Esse projeto teve como maior desafio a contribuição assíncrona de cada participante e organização do repositório, além de consolidar conhecimentos em JavaScript, HTML, CSS e na vinculação com banco de dados e tratativa de API's.
+<h3>Aprendizados</h3>
+<p>Esse projeto teve como maior desafio a contribuição assíncrona de cada participante e organização do repositório, além de consolidar conhecimentos em JavaScript, HTML, CSS e na vinculação com banco de dados e tratativa de API's.</p>
