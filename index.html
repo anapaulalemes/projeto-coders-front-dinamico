@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main class="todo">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="todo-search">
+              <button
+                id="button-search"
+                title="Clique aqui para pesquisar uma task"
+              >
+                <svg
+                  width="30"
+                  height="30"
+                  viewBox="0 0 45 45"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                ></svg>
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="todo-title">
+              <h1>Minha Lista de Tarefas</h1>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="todo-newItem" id="newItem">
+              <input
+                type="text"
+                class="form-control"
+                id="new-todo"
+                placeholder="Adicione uma nova tarefa"
+                maxlength="66"
+                autofocus
+              />
+              <button id="add-todo" class="btn btn-primary">
+                <svg
+                  width="22"
+                  height="20"
+                  viewBox="0 0 52 52"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                ></svg>
+              </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="todo-search" id="searchContainer">
+              <label for="input-search"> </label>
+              <input
+                type="text"
+                class="form-control"
+                id="input-search"
+                placeholder="Pesquisar tarefas"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="todo-list" id="todo-list"></div>
+          </div>
+        </div>
+        <script src="script.js"></script>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
