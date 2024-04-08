@@ -1,3 +1,4 @@
+let tarefas = []
 async function adicionarTarefa() {
   const novaTarefa = document.getElementById("new-todo").value;
 

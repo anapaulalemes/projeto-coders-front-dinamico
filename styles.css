@@ -163,9 +163,7 @@ body {
   background-color: transparent;
   cursor: pointer;
   fill: rgb(54, 5, 0);
-  position: relative;
-  top: 2px;
-  left: 370px;
+
 }
 
 #button-search:hover {
@@ -182,6 +180,7 @@ body {
 #searchContainer.show {
   display: flex;
 }
+
 @media screen and (max-width: 700px) {
   .container {
     width: 75%;

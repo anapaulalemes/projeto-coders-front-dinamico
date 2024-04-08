@@ -17,7 +17,19 @@
     <main class="todo d-flex justify-content-center align-items-center ">
       <div class="container">
         <div class="row">
-          
+          <div class="col">
+            <div class="todo-search">
+              <button
+               class="mt-2"
+                id="button-search"
+                title="Clique aqui para pesquisar uma task"
+              >
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+              </svg>
+              </button>
+            </div>
+          </div>
           <div class="col">
             <div class="todo-title">
               <h1>Minha Lista de Tarefas</h1>
@@ -41,6 +53,17 @@
                 </svg>
                 
               </button>
+            </div>
+          </div>
+          <div class="col">
+            <div class="todo-search" id="searchContainer">
+              <label for="input-search"> </label>
+              <input
+                type="text"
+                class="form-control"
+                id="input-search"
+                placeholder="Pesquisar tarefas"
+              />
             </div>
           </div>
         </div>
